@@ -67,7 +67,7 @@ author:
 #      icon: "fab fa-fw fa-twitter-square"
 #      url: "https://twitter.com/"
     - label: "Email"
-      icon: "fab fa-fw fa-envelope"
+      icon: "fas fa-fw fa-envelope"
       url: "mailto:saimun92@icloud.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
