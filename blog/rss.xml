@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Sai Mun's Tech Blog Blog</title>
+        <title>Technosaurus Blog</title>
         <link>https://saimun92.github.io/blog</link>
-        <description>Sai Mun's Tech Blog Blog</description>
+        <description>Technosaurus Blog</description>
         <lastBuildDate>Sat, 21 Jan 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
@@ -11,10 +11,10 @@
         <item>
             <title><![CDATA[How Google's Search Works!]]></title>
             <link>https://saimun92.github.io/blog/google-search</link>
-            <guid>google-search</guid>
+            <guid>https://saimun92.github.io/blog/google-search</guid>
             <pubDate>Sat, 21 Jan 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[How Google's Search Works!]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-googles-search-works">How Google's Search Works!<a class="hash-link" href="#how-googles-search-works" title="Direct link to heading">​</a></h2><p>Google Search can be broken down into three steps namely:</p><ol><li>Crawling</li><li>Indexing</li><li>Searching</li></ol><h4 class="anchor anchorWithStickyNavbar_LWe7" id="crawling">Crawling<a class="hash-link" href="#crawling" title="Direct link to heading">​</a></h4><p>Crawling is the process of searching the web for new and updated content.
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-googles-search-works">How Google's Search Works!<a href="#how-googles-search-works" class="hash-link" aria-label="Direct link to How Google's Search Works!" title="Direct link to How Google's Search Works!">​</a></h2><p>Google Search can be broken down into three steps namely:</p><ol><li>Crawling</li><li>Indexing</li><li>Searching</li></ol><h4 class="anchor anchorWithStickyNavbar_LWe7" id="crawling">Crawling<a href="#crawling" class="hash-link" aria-label="Direct link to Crawling" title="Direct link to Crawling">​</a></h4><p>Crawling is the process of searching the web for new and updated content.
 During crawling, <em><strong>Google</strong></em> must constantly look for new and updated pages and add them to its list of
 known pages. This process is called "URL discovery".
 The program that does the fetching is called Googlebot (AKA Spiders) to crawl pages to extract out information and store it in an index.
@@ -23,23 +23,23 @@ list of pages (a <a href="https://developers.google.com/search/docs/crawling-ind
 A sitemap is a file where you provide information about the pages, videos, and other files on your
 site and the relationship between them. Information like video runtime, rating, age-appropriateness
 rating. It can also include the article title and publication date. </p><p>However, <em><strong>Googlebot</strong></em> doesn't crawl all the pages it discovered. Some issues that prevent Googlebot
-from accessing sites include:</p><ul><li>Problems with the server handling the site</li><li>Network issues</li><li>robots.txt directives preventing Googlebot's access to the page.</li></ul><h4 class="anchor anchorWithStickyNavbar_LWe7" id="indexing">Indexing<a class="hash-link" href="#indexing" title="Direct link to heading">​</a></h4><p>Indexing is the process of Google trying to understand what the page is about. It includes processing
+from accessing sites include:</p><ul><li>Problems with the server handling the site</li><li>Network issues</li><li>robots.txt directives preventing Googlebot's access to the page.</li></ul><h4 class="anchor anchorWithStickyNavbar_LWe7" id="indexing">Indexing<a href="#indexing" class="hash-link" aria-label="Direct link to Indexing" title="Direct link to Indexing">​</a></h4><p>Indexing is the process of Google trying to understand what the page is about. It includes processing
 and analyzing the text content and key content tags and attributes, such as <code>&lt;title&gt;</code> elements,
 other attributes, images, videos and more. Google determines if a page is a duplicate of another page
 on the internet. If there is, Google will select one and that will be the canonical version of the page.
 Canonical pages are the pages that Google will show in search results and which Google thinks its the most
 represented page of all the duplicates. Google also collects signals or metadata such as the language of
 the page, the country the content is local to, the usability of the page and so on. All the collected information
-is stored on the Google Index, a large database hosted on thousands of computers.</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="searching">Searching<a class="hash-link" href="#searching" title="Direct link to heading">​</a></h4><p>Searching search the index and it ranks the results based on the search query. However,
+is stored on the Google Index, a large database hosted on thousands of computers.</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="searching">Searching<a href="#searching" class="hash-link" aria-label="Direct link to Searching" title="Direct link to Searching">​</a></h4><p>Searching search the index and it ranks the results based on the search query. However,
 the ranking algorithm is dependant of several factors such as language used, location of
-the user and the search query to return the most relevant search results back to the user.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="summary">Summary<a class="hash-link" href="#summary" title="Direct link to heading">​</a></h3><p><img loading="lazy" alt="Gooogle Search Summary" src="/assets/images/google-search-d3ec3474b23fa0b88cec6eeae39d9bd8.jpg" width="1280" height="905" class="img_ev3q"></p><p><strong>Notes</strong></p><ul><li><a href="https://developers.google.com/search/docs/fundamentals/how-search-works" target="_blank" rel="noopener noreferrer">https://developers.google.com/search/docs/fundamentals/how-search-works</a></li><li><a href="https://support.google.com/webmasters/answer/9128586?hl=en#:~:text=Crawling%3A%20Google%20searches%20the,that%20we%20already%20know%20about" target="_blank" rel="noopener noreferrer">https://support.google.com/webmasters/answer/9128586?hl=en#:~:text=Crawling%3A%20Google%20searches%20the,that%20we%20already%20know%20about</a>.</li></ul>]]></content:encoded>
+the user and the search query to return the most relevant search results back to the user.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="summary">Summary<a href="#summary" class="hash-link" aria-label="Direct link to Summary" title="Direct link to Summary">​</a></h3><p><img loading="lazy" alt="Gooogle Search Summary" src="/assets/images/google-search-d3ec3474b23fa0b88cec6eeae39d9bd8.jpg" width="1280" height="905" class="img_ev3q"></p><p><strong>Notes</strong></p><ul><li><a href="https://developers.google.com/search/docs/fundamentals/how-search-works" target="_blank" rel="noopener noreferrer">https://developers.google.com/search/docs/fundamentals/how-search-works</a></li><li><a href="https://support.google.com/webmasters/answer/9128586?hl=en#:~:text=Crawling%3A%20Google%20searches%20the,that%20we%20already%20know%20about" target="_blank" rel="noopener noreferrer">https://support.google.com/webmasters/answer/9128586?hl=en#:~:text=Crawling%3A%20Google%20searches%20the,that%20we%20already%20know%20about</a>.</li></ul>]]></content:encoded>
             <category>google</category>
             <category>search</category>
         </item>
         <item>
             <title><![CDATA[First Blog Post]]></title>
             <link>https://saimun92.github.io/blog/welcome</link>
-            <guid>welcome</guid>
+            <guid>https://saimun92.github.io/blog/welcome</guid>
             <pubDate>Wed, 18 Jan 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[This is my first blog post!]]></description>
             <content:encoded><![CDATA[<p>This is my first blog post!
